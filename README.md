@@ -3,7 +3,7 @@ Solution to the [3-column preview card component](https://www.frontendmentor.io/
 #### Desktop Design:
 ![my-desktop-design](https://user-images.githubusercontent.com/71796360/137247409-cc355b39-d2fd-434b-a40e-8e0f00b394f5.PNG)
 # Link
-Solution: [Github Page]()
+Solution: [Github Page](https://mtc-21.github.io/3-column-preview-card-component/)
 # Description
 created with html, css, using flebox for the layout of the website 
 # Author
