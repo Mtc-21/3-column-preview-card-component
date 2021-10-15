@@ -2,9 +2,12 @@
     @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
     * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
+     margin: 0;
+	   padding: 0;
+	   border: 0;
+	   font-size: 100%;
+	   font: inherit;
+	   vertical-align: baseline;
     }
 
     html,
@@ -13,13 +16,13 @@
     }
 
     body,
-    .content,
-    article {
+    .content{
       display: flex;
       flex-direction: column;
     }
 
     body {
+      font-size: 15px;
       justify-content: center;
       align-items: center;
     }
@@ -52,31 +55,22 @@
       color: hsl(179, 100%, 13%);
     }
 
-
     h2,
     p {
       color: hsl(0, 0%, 95%);
     }
 
     p {
-      line-height: 5;
-      font-size: 15px;
       line-height: 1.5;
       font-family: 'Lexend Deca', sans-serif;
     }
 
-    p,
-    article {
-      flex: 1;
-    }
-
     button {
       background: hsl(0, 0%, 95%);
-      padding: 0.5rem 1rem;
       border-radius: 2rem;
       border: none;
-      padding: 0.8rem 1rem;
-      width: 150px;
+      padding: 0.8rem 1.5rem;
+      margin-top: 1rem;
       font-family: 'Lexend Deca', sans-serif;
       box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
     }
@@ -111,8 +105,6 @@
 
     article {
       padding: 2.5rem;
-      justify-content: space-between;
-      align-items: flex-start;
     }
 
     img,
@@ -135,16 +127,16 @@
       article {
         padding: 3rem;
       }
-
-      h2 {
-        margin-top: 1rem;
-        flex: 0.3;
+      button{
+        margin-top: 1.5rem;
+      }
+      img{
+        margin-bottom: 1.2rem;
       }
 
       .content {
         margin: 1rem;
         min-width: 921px;
-        min-height: 50vh;
         flex-direction: row;
       }
 
